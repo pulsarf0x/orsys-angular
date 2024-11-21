@@ -5,6 +5,7 @@ import { SharedModule } from '../shared.module';
 import { ViewHomeComponent } from './view-home/view-home.component';
 import { ViewMessageComponent } from './view-message/view-message.component';
 import { ViewProfileComponent } from './view-profile/view-profile.component';
+import { LayoutModule } from "../layout/layout.module";
 
 /**
  * Expose components to be routed
@@ -17,7 +18,8 @@ import { ViewProfileComponent } from './view-profile/view-profile.component';
   ],
   imports: [
     SharedModule,
-    ViewRoutingModule
-  ]
+    ViewRoutingModule,
+    LayoutModule
+]
 })
 export class ViewModule { }

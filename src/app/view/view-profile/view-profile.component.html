@@ -1,1 +1,22 @@
-<p>view-profile works!</p>
+<app-layout-default>
+
+    <ng-container class="layout-header" [ngTemplateOutlet]="header" />
+        
+    <ng-container [ngTemplateOutlet]="main"/>
+
+    <ng-container  class="layout-footer" [ngTemplateOutlet]="footer"/>
+
+</app-layout-default>
+
+
+<ng-template #header>
+    PROFILE HEADER CONTENT
+</ng-template>
+
+<ng-template #main>
+    PROFILE MAIN CONTENT
+</ng-template>
+
+<ng-template #footer>
+    PROFILE FOOTER CONTENT
+</ng-template>

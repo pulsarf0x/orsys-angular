@@ -1,1 +1,22 @@
-<p>view-message works!</p>
+<app-layout-default>
+
+    <ng-container class="layout-header" [ngTemplateOutlet]="header" />
+        
+    <ng-container [ngTemplateOutlet]="main"/>
+
+    <ng-container  class="layout-footer" [ngTemplateOutlet]="footer"/>
+
+</app-layout-default>
+
+
+<ng-template #header>
+    MESSAGE HEADER CONTENT
+</ng-template>
+
+<ng-template #main>
+    MESSAGE MAIN CONTENT
+</ng-template>
+
+<ng-template #footer>
+    MESSAGE FOOTER CONTENT
+</ng-template>

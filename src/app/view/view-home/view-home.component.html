@@ -1,1 +1,22 @@
-<p>view-home works!</p>
+<app-layout-default>
+
+    <ng-container class="layout-header" [ngTemplateOutlet]="header" />
+        
+    <ng-container [ngTemplateOutlet]="main"/>
+
+    <ng-container  class="layout-footer" [ngTemplateOutlet]="footer"/>
+
+</app-layout-default>
+
+
+<ng-template #header>
+    HOME HEADER CONTENT
+</ng-template>
+
+<ng-template #main>
+    HOME MAIN CONTENT
+</ng-template>
+
+<ng-template #footer>
+    HOME FOOTER CONTENT
+</ng-template>
