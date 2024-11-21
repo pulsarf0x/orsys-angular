@@ -1,0 +1,6 @@
+<footer [ngClass]="displayed ? 'active' : ''">
+    <ng-content>Default</ng-content>
+</footer>
+<app-base-button (click)="toggle()">
+    {{ !displayed ? 'Afficher footer' : 'Masquer footer' }}
+</app-base-button>

@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("https://unpkg.com/reset-css/reset.css");
+
+html {
+    font-family: Arial;
+    background-color: #f1f1f1;
+}
+
+:root {
+    --cnmss-high: crimson;
+    --cnmss-medium: #1d4a9a;
+    --cnmss-low: #8e8b85;
+}

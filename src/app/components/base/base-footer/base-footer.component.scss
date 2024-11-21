@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cnmss-low);
+    color: white;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    
+    transition: bottom .5s ease;
+}
+
+app-base-button {
+    display: none;
+}
+
+@media (max-height: 512px)  {
+    app-base-button {
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    footer {
+        bottom: -100px;
+    }
+
+    footer.active {
+        bottom: 0;
+    }
+}

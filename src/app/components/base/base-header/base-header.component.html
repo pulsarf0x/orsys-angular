@@ -1,0 +1,7 @@
+<header [ngClass]="!online ? 'connection-lost' : ''">
+    <h1>Truc muche</h1>
+    <nav>
+        {{online}}
+        <ng-content />
+    </nav>
+</header>
