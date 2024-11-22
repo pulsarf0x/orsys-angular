@@ -7,14 +7,17 @@ import { ViewProfileComponent } from './view/view-profile/view-profile.component
 const routes: Routes = [
   {
     path:'',
+    title: 'Home',
     component:ViewHomeComponent
   },
   {
     path:'message',
+    title: 'Message',
     component:ViewMessageComponent
   },
   {
     path:'profile',
+    title: 'Profile',
     component:ViewProfileComponent
   }
 ];

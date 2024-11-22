@@ -1,1 +1,3 @@
-<p>notification works!</p>
+<div *ngIf="notifcationService.data$ | async as notification" [ngClass]="notification.level | lowercase">
+    {{notification.label}}
+</div>

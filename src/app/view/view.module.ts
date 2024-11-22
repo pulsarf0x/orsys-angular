@@ -6,6 +6,7 @@ import { ViewHomeComponent } from './view-home/view-home.component';
 import { ViewMessageComponent } from './view-message/view-message.component';
 import { ViewProfileComponent } from './view-profile/view-profile.component';
 import { LayoutModule } from "../layout/layout.module";
+import { NotificationModule } from '../features/notification/notification.module';
 
 /**
  * Expose components to be routed
@@ -19,7 +20,8 @@ import { LayoutModule } from "../layout/layout.module";
   imports: [
     SharedModule,
     ViewRoutingModule,
-    LayoutModule
+    LayoutModule,
+    NotificationModule
 ]
 })
 export class ViewModule { }

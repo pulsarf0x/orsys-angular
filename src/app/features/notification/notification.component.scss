@@ -1,0 +1,19 @@
+div {
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    background-color: var(--cnmss-low);
+    border-radius: 10px;
+}
+
+.high {
+    background-color: var(--cnmss-high)
+}
+
+.medium {
+    background-color: var(--cnmss-medium)
+}
+
+.low {
+    background-color: var(--cnmss-low)
+}
