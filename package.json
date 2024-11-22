@@ -2,6 +2,7 @@
   "name": "2.second-app",
   "version": "0.0.0",
   "scripts": {
+    "mock:api": "json-server ./API/data.json --port 5050 -w",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",

@@ -18,6 +18,6 @@ export interface CrudService<D extends UniqueData> {
 
     update(target: D, data: Partial<D>): Observable<MethodAcceptance>
 
-    delete(): Observable<MethodAcceptance>
+    delete(target: D): Observable<MethodAcceptance>
 
 }
