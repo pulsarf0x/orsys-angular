@@ -1,1 +1,2 @@
-<p>message-form works!</p>
+<input type="text" [(ngModel)]="text" (keyup.enter)="input.valid && send()" minlength="3" #input="ngModel">
+<app-base-button (click)="text && send()" *ngIf="input.valid">Envoyer</app-base-button>

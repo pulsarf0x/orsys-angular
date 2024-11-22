@@ -1,18 +1,14 @@
 {
-    "notifications": [],
-    "users": [],
-    "messages": [
-        {
-            "id": 1,
-            "text": "First message"
-        },
-        {
-            "id": 2,
-            "text": "Second message"
-        },
-        {
-            "id": 3,
-            "text": "Third message"
-        }
-    ]
+  "notifications": [],
+  "users": [],
+  "messages": [
+    {
+      "id": "3",
+      "text": "Third message"
+    },
+    {
+      "id": "3c5e",
+      "text": "ZOUBOULOUMOUK"
+    }
+  ]
 }

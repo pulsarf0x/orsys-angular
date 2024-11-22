@@ -1,1 +1,5 @@
-<p>message-list works!</p>
+<ul>
+@for (message of messageService.data$ | async; track message.id) {
+    <app-message-list-item [message]="message" />
+}
+</ul>

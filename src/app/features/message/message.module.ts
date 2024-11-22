@@ -16,6 +16,7 @@ import { SharedModule } from '../../shared.module';
     MessageSearchComponent,
     MessageFormComponent,
     MessageListComponent,
+    MessageListItemComponent
   ],
   imports: [
     SharedModule
