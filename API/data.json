@@ -1,0 +1,18 @@
+{
+    "notifications": [],
+    "users": [],
+    "messages": [
+        {
+            "id": 1,
+            "text": "First message"
+        },
+        {
+            "id": 2,
+            "text": "Second message"
+        },
+        {
+            "id": 3,
+            "text": "Third message"
+        }
+    ]
+}
